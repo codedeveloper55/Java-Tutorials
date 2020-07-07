@@ -26,7 +26,8 @@ package com.company;
 
 
 
-//you can use the class for your desired outputs but you cnot change the code in the class
+//you can use the class for your desired outputs but you can not change the code in the class
+
 //we created this class to store the private attributes
 public class encap {
 

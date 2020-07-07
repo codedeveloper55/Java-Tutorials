@@ -11,6 +11,8 @@ package com.company;
 
 //This program is for Object Oriented Programming concepts
 
+import java.util.logging.LoggingPermission;
+
 public class Main {
 //Here we have declared our class as main
 
@@ -88,9 +90,24 @@ public class Main {
         //First refer to inherit.java file first
 
 
+        // Simple Example of Inheritance
+
+        int a = 10;
+        int b = 20;
+
+        inherit opeations = new inherit();
+
+        opeations.multiplication(a, b);
+//Now here we have declared two parameters, whose value we have given above
+        opeations.addition(a, b);
+        //We can even fill the values directly instead of the attributes
+        opeations.subtraction(10, 20);
+//we don't need to print these objects as we have already defined a printing
+        //function while writing the method
+
+
 
             }
-
 
         }
 
